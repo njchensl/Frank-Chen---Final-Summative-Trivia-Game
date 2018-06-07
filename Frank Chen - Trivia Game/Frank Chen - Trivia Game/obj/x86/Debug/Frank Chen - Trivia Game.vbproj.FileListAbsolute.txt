@@ -20,3 +20,6 @@ C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank Chen - Trivia Game\Fran
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.Resources.resources
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbproj.GenerateResource.Cache
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.settings.resources
+C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.exe
+C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.xml
+C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.pdb
