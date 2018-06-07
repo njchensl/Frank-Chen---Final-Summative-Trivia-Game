@@ -1,0 +1,81 @@
+<Trivia Game Questions>
+What is the structural limit of an Airbus A320?
+1.5G
+1.0G
+2.5G
+3.0G
+2.5G
+The flight computers equipped on an Airbus A320 prevents the aircraft from exceeding that limit. 
+https://i.stack.imgur.com/ISoOh.jpg
+What is the biggest complaint about Airbus A320's flight-by-wire system?
+Lack of feedback compared to a mechanical linked flight control system
+Lack of friction compared to fighter jet sticks
+The side stick is too small
+It fails very often
+Lack of feedback compared to a mechanical linked flight control system
+If the stick is mechanically linked to the flight control surfaces, the pilot will be able to feel the pressure on the stick because of air flow. 
+https://i.stack.imgur.com/ISoOh.jpg
+What two things do you use for flight control when you are using mechanical backup?
+Rudder and manual pitch trim
+Side stick and manual pitch trim
+Side stick and rudder
+Manual pitch trim and rudder trim
+Rudder and manual pitch trim
+You launch the mechanical law only when you cannot control the aircraft with the side stick. 
+http://a340gc.iradis.org/gallery/fctl_large.gif
+Where do you put the thrust levers when you want to activate auto throttle?
+Idle position
+At 30%
+Flex thrust
+Climb thrust
+Climb thrust
+1) You use flex thrust for take-off. 2) On an airbus, the throttle has no absolute correlation with the thrust that the engines generate. 
+https://thumbs.dreamstime.com/b/aircraft-thrust-levers-18644219.jpg
+When there is an engine fire, what do you do right after you push the fire push button?
+Discharge the agents
+Put the thrust lever of that engine to its idle position
+Turn off the engine master switch
+Apply some rudder trim
+Discharge the agents
+Look at the picture. There's a checklist on it.
+https://i.ytimg.com/vi/9mJwu2wKBFQ/maxresdefault.jpg
+In which of the following scenarios can't you cancel the master warning?
+Engine fire
+Parking break not released
+Overspeeding
+Landing gear not down
+Overspeeding
+In that scenario the master warning cannot be canceled because if you continue doing that thing, there will be a danger to the aircraft structure. 
+https://www.austrianwings.info/fileadmin/aw/2013/09/Master-Warning-Foto-PA-Austrian-Wings-Media-Crew.jpg
+What should you do to the air conditioning system after both of the engines are available?
+Turn off the engine bleeds
+Select high pack flow
+Turn on the packs
+Switch cockpit temperature to cold
+Turn on the packs
+You turn off the packs before starting the engines.
+http://imgproc.airliners.net/photos/airliners/0/6/1/0848160.jpg
+In a traffic pattern, you look left and see the runway you departed from. What is your stage of the pattern called?
+Departure
+Crosswind
+Downwind
+Base
+Downwind
+It contains the word "wind". 
+https://i.ytimg.com/vi/NC4jxgwbbcU/hqdefault.jpg
+A pilot holds his airplane at 4,000 ft AGL, ready to land on runway 17R at CYYC. What is his maximum holding speed?
+200 knots
+230 knots
+265 knots
+280 knots
+230 knots
+Calgary International Airport has an altitude of about 3,000 ft MSL. 
+https://cdn.onthewight.com/wp-content/2014/12/EDpj9W2.jpg
+If you are on a 3 degree glide slope, and your airspeed is 200 kts. What is your ideal V/S? Ignore the effect of the wind. 
+About 500 ft/min
+About 700 ft/min
+About 1000 ft/min
+About 1250 ft/min
+About 1000 ft/min
+Here's the trick. Multiply the airspeed number by 5 and you get the approximate vertical speed.
+https://1acgtt12xmhd5laxc2saim4d-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/88591terraceInstrumentLandingSystem.jpg
