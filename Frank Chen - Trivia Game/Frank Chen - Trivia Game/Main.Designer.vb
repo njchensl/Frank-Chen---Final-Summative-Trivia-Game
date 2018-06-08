@@ -59,7 +59,7 @@ Partial Class Main
         Me.btn4.BackColor = System.Drawing.Color.Gainsboro
         Me.btn4.Enabled = False
         Me.btn4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn4.Location = New System.Drawing.Point(355, 547)
+        Me.btn4.Location = New System.Drawing.Point(382, 547)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(334, 102)
         Me.btn4.TabIndex = 1
@@ -72,7 +72,7 @@ Partial Class Main
         Me.btn2.BackColor = System.Drawing.Color.Gainsboro
         Me.btn2.Enabled = False
         Me.btn2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn2.Location = New System.Drawing.Point(355, 441)
+        Me.btn2.Location = New System.Drawing.Point(382, 441)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(334, 100)
         Me.btn2.TabIndex = 2
@@ -96,7 +96,7 @@ Partial Class Main
         '
         Me.lblQuestion.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblQuestion.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblQuestion.Location = New System.Drawing.Point(73, 8)
+        Me.lblQuestion.Location = New System.Drawing.Point(87, 8)
         Me.lblQuestion.Name = "lblQuestion"
         Me.lblQuestion.Size = New System.Drawing.Size(581, 95)
         Me.lblQuestion.TabIndex = 4
@@ -120,7 +120,7 @@ Partial Class Main
         '
         Me.lblTimer.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblTimer.AutoSize = True
-        Me.lblTimer.Location = New System.Drawing.Point(667, 10)
+        Me.lblTimer.Location = New System.Drawing.Point(694, 10)
         Me.lblTimer.Name = "lblTimer"
         Me.lblTimer.Size = New System.Drawing.Size(27, 20)
         Me.lblTimer.TabIndex = 6
@@ -129,7 +129,7 @@ Partial Class Main
         'pb
         '
         Me.pb.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.pb.Location = New System.Drawing.Point(27, 106)
+        Me.pb.Location = New System.Drawing.Point(41, 106)
         Me.pb.Name = "pb"
         Me.pb.Size = New System.Drawing.Size(652, 276)
         Me.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -140,7 +140,7 @@ Partial Class Main
         '
         Me.btnHint.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnHint.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.btnHint.Location = New System.Drawing.Point(27, 379)
+        Me.btnHint.Location = New System.Drawing.Point(41, 379)
         Me.btnHint.Name = "btnHint"
         Me.btnHint.Size = New System.Drawing.Size(652, 46)
         Me.btnHint.TabIndex = 8
@@ -152,7 +152,8 @@ Partial Class Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(701, 658)
+        Me.ClientSize = New System.Drawing.Size(728, 658)
+        Me.ControlBox = False
         Me.Controls.Add(Me.btnHint)
         Me.Controls.Add(Me.pb)
         Me.Controls.Add(Me.lblTimer)
@@ -163,6 +164,7 @@ Partial Class Main
         Me.Controls.Add(Me.btn4)
         Me.Controls.Add(Me.btn3)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MinimumSize = New System.Drawing.Size(750, 714)
         Me.Name = "Main"
         Me.Text = "Trivia Game"
         CType(Me.pb, System.ComponentModel.ISupportInitialize).EndInit()

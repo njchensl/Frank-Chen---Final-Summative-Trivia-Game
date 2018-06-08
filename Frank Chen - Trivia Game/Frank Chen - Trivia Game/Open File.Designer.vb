@@ -34,6 +34,7 @@ Partial Class OpenFile
         Me.btnEasy = New System.Windows.Forms.Button()
         Me.btnHard = New System.Windows.Forms.Button()
         Me.lblChooseLevel = New System.Windows.Forms.Label()
+        Me.btnClose = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnChooseFile
@@ -134,6 +135,7 @@ Partial Class OpenFile
         '
         'lblChooseLevel
         '
+        Me.lblChooseLevel.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblChooseLevel.AutoSize = True
         Me.lblChooseLevel.Location = New System.Drawing.Point(650, 107)
         Me.lblChooseLevel.Name = "lblChooseLevel"
@@ -141,11 +143,23 @@ Partial Class OpenFile
         Me.lblChooseLevel.TabIndex = 10
         Me.lblChooseLevel.Text = "Built-in Levels"
         '
+        'btnClose
+        '
+        Me.btnClose.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnClose.Location = New System.Drawing.Point(650, 403)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(111, 32)
+        Me.btnClose.TabIndex = 11
+        Me.btnClose.Text = "Close"
+        Me.btnClose.UseVisualStyleBackColor = True
+        '
         'OpenFile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(773, 447)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.lblChooseLevel)
         Me.Controls.Add(Me.btnHard)
         Me.Controls.Add(Me.btnEasy)
@@ -157,6 +171,7 @@ Partial Class OpenFile
         Me.Controls.Add(Me.lblOr)
         Me.Controls.Add(Me.btnChooseFile)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MinimumSize = New System.Drawing.Size(795, 503)
         Me.Name = "OpenFile"
         Me.Text = "Open from ..."
         Me.ResumeLayout(False)
@@ -174,4 +189,5 @@ Partial Class OpenFile
     Friend WithEvents btnEasy As System.Windows.Forms.Button
     Friend WithEvents btnHard As System.Windows.Forms.Button
     Friend WithEvents lblChooseLevel As System.Windows.Forms.Label
+    Friend WithEvents btnClose As System.Windows.Forms.Button
 End Class

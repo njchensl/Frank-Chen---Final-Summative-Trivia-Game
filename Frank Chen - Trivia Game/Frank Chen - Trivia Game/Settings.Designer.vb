@@ -66,7 +66,7 @@ Partial Class Settings
         'btnOK
         '
         Me.btnOK.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnOK.Location = New System.Drawing.Point(656, 322)
+        Me.btnOK.Location = New System.Drawing.Point(629, 355)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(122, 44)
         Me.btnOK.TabIndex = 1
@@ -76,7 +76,7 @@ Partial Class Settings
         'btnCancel
         '
         Me.btnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnCancel.Location = New System.Drawing.Point(784, 322)
+        Me.btnCancel.Location = New System.Drawing.Point(757, 355)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(123, 44)
         Me.btnCancel.TabIndex = 2
@@ -130,7 +130,7 @@ Partial Class Settings
         Me.gbHintIndex.Controls.Add(Me.lblHintIndex4)
         Me.gbHintIndex.Controls.Add(Me.lblHintIndex2)
         Me.gbHintIndex.Controls.Add(Me.tbHintIndex)
-        Me.gbHintIndex.Location = New System.Drawing.Point(57, 157)
+        Me.gbHintIndex.Location = New System.Drawing.Point(57, 190)
         Me.gbHintIndex.Name = "gbHintIndex"
         Me.gbHintIndex.Size = New System.Drawing.Size(364, 128)
         Me.gbHintIndex.TabIndex = 7
@@ -179,7 +179,7 @@ Partial Class Settings
         Me.GroupBox1.Controls.Add(Me.lblHintTime30)
         Me.GroupBox1.Controls.Add(Me.lblHintTime15)
         Me.GroupBox1.Controls.Add(Me.tbHintTime)
-        Me.GroupBox1.Location = New System.Drawing.Point(498, 23)
+        Me.GroupBox1.Location = New System.Drawing.Point(471, 23)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(364, 128)
         Me.GroupBox1.TabIndex = 7
@@ -228,7 +228,7 @@ Partial Class Settings
         Me.GroupBox2.Controls.Add(Me.lblCountDownTime60)
         Me.GroupBox2.Controls.Add(Me.lblCountDownTime30)
         Me.GroupBox2.Controls.Add(Me.tbCountDownTime)
-        Me.GroupBox2.Location = New System.Drawing.Point(498, 157)
+        Me.GroupBox2.Location = New System.Drawing.Point(471, 190)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(364, 128)
         Me.GroupBox2.TabIndex = 8
@@ -274,14 +274,18 @@ Partial Class Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(919, 379)
+        Me.ClientSize = New System.Drawing.Size(892, 412)
+        Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.gbHintIndex)
         Me.Controls.Add(Me.gbScoreIndex)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnOK)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(898, 452)
+        Me.MinimumSize = New System.Drawing.Size(898, 452)
         Me.Name = "Settings"
         Me.Text = "Settings"
         CType(Me.tbScoreIndex, System.ComponentModel.ISupportInitialize).EndInit()

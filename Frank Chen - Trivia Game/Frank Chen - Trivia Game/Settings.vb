@@ -55,4 +55,5 @@ Public Class Settings
         ' update the time
         hintTime = tbHintTime.Value * 3
     End Sub
+
 End Class
