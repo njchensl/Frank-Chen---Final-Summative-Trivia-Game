@@ -94,7 +94,7 @@ Public Class OpenFile
         Try
             Main.pb.Image = New System.Drawing.Bitmap(New IO.MemoryStream(New System.Net.WebClient().DownloadData("https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png")))
         Catch ex As Exception
-            MessageBox.Show("Please make sure that there is Interenet connection" & Environment.NewLine & ex.Message)
+            MessageBox.Show("Please make sure that there is Interenet connection." & Environment.NewLine & ex.Message)
             exception = True
         End Try
         If Not exception Then
