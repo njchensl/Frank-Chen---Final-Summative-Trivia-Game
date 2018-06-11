@@ -30,13 +30,13 @@ Partial Class Main
         Me.btn3 = New System.Windows.Forms.Button()
         Me.btn4 = New System.Windows.Forms.Button()
         Me.btn2 = New System.Windows.Forms.Button()
-        Me.btn1 = New System.Windows.Forms.Button()
         Me.lblQuestion = New System.Windows.Forms.Label()
         Me.lblScore = New System.Windows.Forms.Label()
         Me.theTimer = New System.Windows.Forms.Timer(Me.components)
         Me.lblTimer = New System.Windows.Forms.Label()
         Me.pb = New System.Windows.Forms.PictureBox()
         Me.btnHint = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
         CType(Me.pb, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -46,7 +46,7 @@ Partial Class Main
         Me.btn3.BackColor = System.Drawing.Color.Gainsboro
         Me.btn3.Enabled = False
         Me.btn3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn3.Location = New System.Drawing.Point(12, 547)
+        Me.btn3.Location = New System.Drawing.Point(12, 578)
         Me.btn3.Name = "btn3"
         Me.btn3.Size = New System.Drawing.Size(334, 102)
         Me.btn3.TabIndex = 0
@@ -59,7 +59,7 @@ Partial Class Main
         Me.btn4.BackColor = System.Drawing.Color.Gainsboro
         Me.btn4.Enabled = False
         Me.btn4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn4.Location = New System.Drawing.Point(382, 547)
+        Me.btn4.Location = New System.Drawing.Point(382, 578)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(334, 102)
         Me.btn4.TabIndex = 1
@@ -72,25 +72,12 @@ Partial Class Main
         Me.btn2.BackColor = System.Drawing.Color.Gainsboro
         Me.btn2.Enabled = False
         Me.btn2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn2.Location = New System.Drawing.Point(382, 441)
+        Me.btn2.Location = New System.Drawing.Point(382, 472)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(334, 100)
         Me.btn2.TabIndex = 2
         Me.btn2.Text = "Option 2"
         Me.btn2.UseVisualStyleBackColor = False
-        '
-        'btn1
-        '
-        Me.btn1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.btn1.BackColor = System.Drawing.Color.Gainsboro
-        Me.btn1.Enabled = False
-        Me.btn1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn1.Location = New System.Drawing.Point(12, 441)
-        Me.btn1.Name = "btn1"
-        Me.btn1.Size = New System.Drawing.Size(334, 100)
-        Me.btn1.TabIndex = 3
-        Me.btn1.Text = "Option 1"
-        Me.btn1.UseVisualStyleBackColor = False
         '
         'lblQuestion
         '
@@ -131,7 +118,7 @@ Partial Class Main
         Me.pb.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.pb.Location = New System.Drawing.Point(41, 106)
         Me.pb.Name = "pb"
-        Me.pb.Size = New System.Drawing.Size(652, 276)
+        Me.pb.Size = New System.Drawing.Size(652, 308)
         Me.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pb.TabIndex = 7
         Me.pb.TabStop = False
@@ -140,7 +127,7 @@ Partial Class Main
         '
         Me.btnHint.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnHint.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.btnHint.Location = New System.Drawing.Point(41, 379)
+        Me.btnHint.Location = New System.Drawing.Point(41, 420)
         Me.btnHint.Name = "btnHint"
         Me.btnHint.Size = New System.Drawing.Size(652, 46)
         Me.btnHint.TabIndex = 8
@@ -148,11 +135,24 @@ Partial Class Main
         Me.btnHint.UseVisualStyleBackColor = True
         Me.btnHint.Visible = False
         '
+        'btn1
+        '
+        Me.btn1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.btn1.BackColor = System.Drawing.Color.Gainsboro
+        Me.btn1.Enabled = False
+        Me.btn1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn1.Location = New System.Drawing.Point(12, 472)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(334, 100)
+        Me.btn1.TabIndex = 3
+        Me.btn1.Text = "Option 1"
+        Me.btn1.UseVisualStyleBackColor = False
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(728, 658)
+        Me.ClientSize = New System.Drawing.Size(728, 692)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnHint)
         Me.Controls.Add(Me.pb)
@@ -175,12 +175,12 @@ Partial Class Main
     Friend WithEvents btn3 As System.Windows.Forms.Button
     Friend WithEvents btn4 As System.Windows.Forms.Button
     Friend WithEvents btn2 As System.Windows.Forms.Button
-    Friend WithEvents btn1 As System.Windows.Forms.Button
     Friend WithEvents lblQuestion As System.Windows.Forms.Label
     Friend WithEvents lblScore As System.Windows.Forms.Label
     Friend WithEvents lblTimer As System.Windows.Forms.Label
     Public WithEvents theTimer As System.Windows.Forms.Timer
     Friend WithEvents pb As System.Windows.Forms.PictureBox
     Friend WithEvents btnHint As System.Windows.Forms.Button
+    Friend WithEvents btn1 As System.Windows.Forms.Button
 
 End Class

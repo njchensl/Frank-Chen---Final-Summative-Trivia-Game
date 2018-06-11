@@ -166,8 +166,6 @@ Public Class OpenFile
     End Sub
 
     Private Sub btnClose_Click(sender As System.Object, e As System.EventArgs) Handles btnClose.Click
-        Cursor.Position = New Drawing.Point(My.Computer.Screen.WorkingArea.Width, My.Computer.Screen.WorkingArea.Height + 100)
-
         ' stop everything
         changeColorThread.Abort()
         Main.Close()

@@ -23,7 +23,7 @@
 ' certain number of seconds left.
 ' 10. Allow the user to change the way the
 ' game calculates the score by going into
-' the settings form. 
+' the settings form.       ------------------ 1
 
 
 ' List of minor enhancements
