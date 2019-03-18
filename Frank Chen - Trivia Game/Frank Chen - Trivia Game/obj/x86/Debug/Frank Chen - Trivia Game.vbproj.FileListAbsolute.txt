@@ -32,3 +32,16 @@ C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.Settings.resources
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbproj.GenerateResource.Cache
 C:\Users\njche\Google Drive (frche1699@ugcloud.ca)\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbprojResolveAssemblyReference.cache
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\bin\Debug\Frank Chen - Trivia Game.exe
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\bin\Debug\Frank Chen - Trivia Game.pdb
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\bin\Debug\Frank Chen - Trivia Game.xml
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbprojAssemblyReference.cache
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.Main.resources
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.OpenFile.resources
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.Resources.resources
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank_Chen___Trivia_Game.Settings.resources
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbproj.GenerateResource.cache
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.vbproj.CoreCompileInputs.cache
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.exe
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.xml
+C:\Users\njche\source\repos\Frank-Chen---Final-Summative-Trivia-Game\Frank Chen - Trivia Game\Frank Chen - Trivia Game\obj\x86\Debug\Frank Chen - Trivia Game.pdb

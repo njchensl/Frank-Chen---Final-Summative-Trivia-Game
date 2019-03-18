@@ -66,21 +66,21 @@ Partial Class Settings
         'btnOK
         '
         Me.btnOK.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnOK.Location = New System.Drawing.Point(626, 356)
+        Me.btnOK.Location = New System.Drawing.Point(610, 306)
         Me.btnOK.Name = "btnOK"
         Me.btnOK.Size = New System.Drawing.Size(122, 44)
         Me.btnOK.TabIndex = 1
-        Me.btnOK.Text = "OK"
+        Me.btnOK.Text = "Fertig"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
         Me.btnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnCancel.Location = New System.Drawing.Point(754, 356)
+        Me.btnCancel.Location = New System.Drawing.Point(738, 306)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(123, 44)
         Me.btnCancel.TabIndex = 2
-        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.Text = "Abbrechen"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'lblScoreIndex1
@@ -121,7 +121,7 @@ Partial Class Settings
         Me.gbScoreIndex.Size = New System.Drawing.Size(364, 128)
         Me.gbScoreIndex.TabIndex = 6
         Me.gbScoreIndex.TabStop = False
-        Me.gbScoreIndex.Text = "Score Index"
+        Me.gbScoreIndex.Text = "Punktzahlindex"
         '
         'gbHintIndex
         '
@@ -130,12 +130,12 @@ Partial Class Settings
         Me.gbHintIndex.Controls.Add(Me.lblHintIndex4)
         Me.gbHintIndex.Controls.Add(Me.lblHintIndex2)
         Me.gbHintIndex.Controls.Add(Me.tbHintIndex)
-        Me.gbHintIndex.Location = New System.Drawing.Point(57, 193)
+        Me.gbHintIndex.Location = New System.Drawing.Point(57, 143)
         Me.gbHintIndex.Name = "gbHintIndex"
         Me.gbHintIndex.Size = New System.Drawing.Size(364, 128)
         Me.gbHintIndex.TabIndex = 7
         Me.gbHintIndex.TabStop = False
-        Me.gbHintIndex.Text = "Hint Index"
+        Me.gbHintIndex.Text = "Hinweisindex"
         '
         'lblHintIndex0
         '
@@ -179,12 +179,12 @@ Partial Class Settings
         Me.GroupBox1.Controls.Add(Me.lblHintTime30)
         Me.GroupBox1.Controls.Add(Me.lblHintTime15)
         Me.GroupBox1.Controls.Add(Me.tbHintTime)
-        Me.GroupBox1.Location = New System.Drawing.Point(471, 23)
+        Me.GroupBox1.Location = New System.Drawing.Point(455, 23)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(364, 128)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Hint Time"
+        Me.GroupBox1.Text = "Zeit für den Hinweis"
         '
         'lblHintTime0
         '
@@ -228,12 +228,12 @@ Partial Class Settings
         Me.GroupBox2.Controls.Add(Me.lblCountDownTime60)
         Me.GroupBox2.Controls.Add(Me.lblCountDownTime30)
         Me.GroupBox2.Controls.Add(Me.tbCountDownTime)
-        Me.GroupBox2.Location = New System.Drawing.Point(471, 193)
+        Me.GroupBox2.Location = New System.Drawing.Point(455, 143)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(364, 128)
         Me.GroupBox2.TabIndex = 8
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Count Down Time"
+        Me.GroupBox2.Text = "Zeit für den Countdown"
         '
         'lblCountDownTime0
         '
@@ -274,7 +274,7 @@ Partial Class Settings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(892, 412)
+        Me.ClientSize = New System.Drawing.Size(876, 396)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)

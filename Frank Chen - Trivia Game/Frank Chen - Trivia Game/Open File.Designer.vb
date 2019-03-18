@@ -44,7 +44,7 @@ Partial Class OpenFile
         Me.btnChooseFile.Name = "btnChooseFile"
         Me.btnChooseFile.Size = New System.Drawing.Size(224, 72)
         Me.btnChooseFile.TabIndex = 0
-        Me.btnChooseFile.Text = "Choose From File"
+        Me.btnChooseFile.Text = "Aus Datei wählen"
         Me.btnChooseFile.UseVisualStyleBackColor = True
         '
         'lblOr
@@ -52,11 +52,11 @@ Partial Class OpenFile
         Me.lblOr.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblOr.AutoSize = True
         Me.lblOr.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOr.Location = New System.Drawing.Point(361, 228)
+        Me.lblOr.Location = New System.Drawing.Point(345, 228)
         Me.lblOr.Name = "lblOr"
-        Me.lblOr.Size = New System.Drawing.Size(53, 37)
+        Me.lblOr.Size = New System.Drawing.Size(88, 37)
         Me.lblOr.TabIndex = 1
-        Me.lblOr.Text = "Or"
+        Me.lblOr.Text = "Oder"
         '
         'txtFileName
         '
@@ -74,18 +74,19 @@ Partial Class OpenFile
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(286, 63)
         Me.btnSubmit.TabIndex = 3
-        Me.btnSubmit.Text = "Submit"
+        Me.btnSubmit.Text = "Die Datei Öffnen"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
         'lblPrompt
         '
         Me.lblPrompt.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.lblPrompt.AutoSize = True
-        Me.lblPrompt.Location = New System.Drawing.Point(117, 287)
+        Me.lblPrompt.Location = New System.Drawing.Point(46, 287)
         Me.lblPrompt.Name = "lblPrompt"
-        Me.lblPrompt.Size = New System.Drawing.Size(537, 20)
+        Me.lblPrompt.Size = New System.Drawing.Size(686, 20)
         Me.lblPrompt.TabIndex = 4
-        Me.lblPrompt.Text = "Put the file in the debug folder and write its name down in the textbox below"
+        Me.lblPrompt.Text = "Legen Sie die Datei in den Ordner ""Debug"" ab, und schreiben ihren Name in das Tex" &
+    "tfeld unten. "
         '
         'ofd
         '
@@ -109,9 +110,9 @@ Partial Class OpenFile
         Me.Label1.Font = New System.Drawing.Font("Kristen ITC", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(237, 41)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(308, 66)
+        Me.Label1.Size = New System.Drawing.Size(287, 66)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Trivia Game"
+        Me.Label1.Text = "Trivia Spiel"
         '
         'btnEasy
         '
@@ -120,7 +121,7 @@ Partial Class OpenFile
         Me.btnEasy.Name = "btnEasy"
         Me.btnEasy.Size = New System.Drawing.Size(111, 34)
         Me.btnEasy.TabIndex = 8
-        Me.btnEasy.Text = "Easy"
+        Me.btnEasy.Text = "Einfach"
         Me.btnEasy.UseVisualStyleBackColor = True
         '
         'btnHard
@@ -130,18 +131,18 @@ Partial Class OpenFile
         Me.btnHard.Name = "btnHard"
         Me.btnHard.Size = New System.Drawing.Size(111, 34)
         Me.btnHard.TabIndex = 9
-        Me.btnHard.Text = "Hard"
+        Me.btnHard.Text = "Hart"
         Me.btnHard.UseVisualStyleBackColor = True
         '
         'lblChooseLevel
         '
         Me.lblChooseLevel.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblChooseLevel.AutoSize = True
-        Me.lblChooseLevel.Location = New System.Drawing.Point(650, 107)
+        Me.lblChooseLevel.Location = New System.Drawing.Point(620, 107)
         Me.lblChooseLevel.Name = "lblChooseLevel"
-        Me.lblChooseLevel.Size = New System.Drawing.Size(106, 20)
+        Me.lblChooseLevel.Size = New System.Drawing.Size(151, 20)
         Me.lblChooseLevel.TabIndex = 10
-        Me.lblChooseLevel.Text = "Built-in Levels"
+        Me.lblChooseLevel.Text = "Eingebaute Ebenen"
         '
         'btnClose
         '
@@ -150,7 +151,7 @@ Partial Class OpenFile
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(111, 32)
         Me.btnClose.TabIndex = 11
-        Me.btnClose.Text = "Close"
+        Me.btnClose.Text = "Schließen"
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'OpenFile
@@ -173,7 +174,7 @@ Partial Class OpenFile
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(795, 503)
         Me.Name = "OpenFile"
-        Me.Text = "Open from ..."
+        Me.Text = "Aus ... Öffnen"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -186,7 +186,7 @@ Public Class Main
             choice(i).Enabled = False
         Next
         ' update the score
-        lblScore.Text = "Score: " & score
+        lblScore.Text = "Punktzahl: " & score
         ' leave some time for the user to review the answer
         System.Threading.Thread.Sleep(2500)
 

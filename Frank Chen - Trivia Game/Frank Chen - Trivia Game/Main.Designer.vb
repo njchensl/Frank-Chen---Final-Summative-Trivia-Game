@@ -87,7 +87,7 @@ Partial Class Main
         Me.lblQuestion.Name = "lblQuestion"
         Me.lblQuestion.Size = New System.Drawing.Size(581, 95)
         Me.lblQuestion.TabIndex = 4
-        Me.lblQuestion.Text = "Question"
+        Me.lblQuestion.Text = "Frage"
         Me.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblScore
@@ -95,9 +95,9 @@ Partial Class Main
         Me.lblScore.AutoSize = True
         Me.lblScore.Location = New System.Drawing.Point(8, 12)
         Me.lblScore.Name = "lblScore"
-        Me.lblScore.Size = New System.Drawing.Size(59, 20)
+        Me.lblScore.Size = New System.Drawing.Size(87, 20)
         Me.lblScore.TabIndex = 5
-        Me.lblScore.Text = "Score: "
+        Me.lblScore.Text = "Punktzahl: "
         '
         'theTimer
         '
@@ -131,7 +131,7 @@ Partial Class Main
         Me.btnHint.Name = "btnHint"
         Me.btnHint.Size = New System.Drawing.Size(652, 46)
         Me.btnHint.TabIndex = 8
-        Me.btnHint.Text = "Show hint"
+        Me.btnHint.Text = "Hinweis zeigen"
         Me.btnHint.UseVisualStyleBackColor = True
         Me.btnHint.Visible = False
         '
